@@ -1,0 +1,21 @@
+# Python environments and bytecode
+**/.venv/
+**/__pycache__/
+**/*.py[cod]
+
+# Generated training artifacts
+**/outputs/
+**/checkpoints/
+**/logs/
+**/jax_cache/
+
+# Converted datasets (keep only the small provenance manifests)
+solaris/data/*
+!solaris/data/conversion_manifest.json
+solaris/data_smoke/*
+!solaris/data_smoke/conversion_manifest.json
+
+# Local editor and OS files
+.vscode/
+.idea/
+.DS_Store
